@@ -1,5 +1,7 @@
 # 🧮 Simulador de Calculadora KivyMD
 
+**The goal of this project is educational: it visually simulates how Python methods and functions (using KivyMD classes and components) would work if this same calculator were built as a native Python application.**
+
 Este projeto é uma simulação interativa via web que demonstra visualmente a lógica de funcionamento e a chamada de métodos Python em um aplicativo desenvolvido com **KivyMD (Material Design)**.
 
 ## 🚀 Tecnologias Utilizadas
