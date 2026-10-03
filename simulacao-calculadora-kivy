@@ -1,0 +1,8 @@
+simulacao-calculadora-kivy/
+├── index.html          # O HTML da página
+├── css/
+│   └── style.css       # O CSS com todos os estilos da calculadora
+├── js/
+│   └── script.js       # As funções JavaScript de cálculo e atualização do DOM
+├── README.md           # Apresentação do projeto para o GitHub
+└── .gitignore          # Configuração para o Git

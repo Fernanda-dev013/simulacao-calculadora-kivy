@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simulação App KivyMD - Calculadora</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div class="calculadora">
+
+    <!-- CALCULADORA -->
+    <div class="calculadora-box">
+      <p class="subtitulo">🧮 Simulação do app KivyMD</p>
+
+      <div class="display">
+        <div class="display-titulo">MDTextField</div>
+        <div id="expr"></div>
+      </div>
+
+      <div class="teclado">
+        <button class="btn-num" onclick="pressNum('7')">7</button>
+        <button class="btn-num" onclick="pressNum('8')">8</button>
+        <button class="btn-num" onclick="pressNum('9')">9</button>
+        <button class="btn-op" onclick="pressOp('/')">÷</button>
+
+        <button class="btn-num" onclick="pressNum('4')">4</button>
+        <button class="btn-num" onclick="pressNum('5')">5</button>
+        <button class="btn-num" onclick="pressNum('6')">6</button>
+        <button class="btn-op" onclick="pressOp('*')">×</button>
+
+        <button class="btn-num" onclick="pressNum('1')">1</button>
+        <button class="btn-num" onclick="pressNum('2')">2</button>
+        <button class="btn-num" onclick="pressNum('3')">3</button>
+        <button class="btn-op" onclick="pressOp('+')">+</button>
+
+        <button class="btn-clear" onclick="clearAll()">C</button>
+        <button class="btn-num" onclick="pressNum('0')">0</button>
+        <button class="btn-eq" onclick="calculate()">=</button>
+        <button class="btn-op" onclick="pressOp('-')">−</button>
+      </div>
+
+      <div class="rodape-calc">KivyMD • Material Design</div>
+    </div>
+
+    <!-- PAINEL DE CÓDIGO -->
+    <div class="painel-codigo-container">
+      <p class="subtitulo">⚙️ método chamado no Python</p>
+
+      <div id="code-panel">
+        <span class="placeholder-text">nenhuma operação ainda</span>
+      </div>
+
+      <div class="historico">
+        <p>📋 histórico de operações</p>
+        <div id="history">
+          <span class="placeholder-text">nenhum cálculo ainda</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
